@@ -207,7 +207,7 @@ body {
 
 .container .box .name {
     position: absolute;
-    bottom: -5px;
+    bottom: -3px;
     left: -60px;
     text-align: center;
     color: var(--name-color);
