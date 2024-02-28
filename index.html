@@ -50,8 +50,14 @@
                 <img class="product" id="product3" src="./assets/grey.png" />
             </div>
         </div>
-    <script src="./script.js"></script>
+    <script src="./vanilla-tilt.min.js" ></script>
     <script>
-        
+        VanillaTilt.init(document.querySelectorAll(".box"), {
+                max: 15,
+                speed: 300,
+                easing: "cubic-bezier(.03,.98,.52,.99)",
+                scale: 1.05,
+            });
     </script>
+    <script src="./script.js"></script>
 </body>
