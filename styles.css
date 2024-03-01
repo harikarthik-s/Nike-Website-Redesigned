@@ -333,3 +333,9 @@ body {
 .mode-switch.active .moon {
     fill: var(--name-color);
 }
+
+@media only screen and (min-width: 770px) and (max-width:900px){
+    .nav{
+        width: 78%;
+    }
+}
