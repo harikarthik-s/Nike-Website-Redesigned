@@ -339,3 +339,9 @@ body {
         width: 78%;
     }
 }
+
+@media only screen and (min-width: 770px) and (max-width:870px) {
+    .description h3 {
+            max-width: 80%;
+        }
+}
